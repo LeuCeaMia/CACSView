@@ -45,6 +45,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
@@ -119,7 +120,7 @@
               <Table columnCount="4" rowCount="25">
                 <Column editable="true" title="File Name" type="java.lang.String"/>
                 <Column editable="true" title="Type" type="java.lang.String"/>
-                <Column editable="true" title="Shares" type="java.lang.Integer"/>
+                <Column editable="true" title="Location or Shares" type="java.lang.String"/>
                 <Column editable="true" title="Date Made" type="java.lang.Object"/>
               </Table>
             </Property>

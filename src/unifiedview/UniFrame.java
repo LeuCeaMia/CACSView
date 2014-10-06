@@ -50,6 +50,7 @@ public class UniFrame extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jList1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -80,11 +81,11 @@ public class UniFrame extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "File Name", "Type", "Shares", "Date Made"
+                "File Name", "Type", "Location or Shares", "Date Made"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class
             };
 
             public Class getColumnClass(int columnIndex) {
