@@ -33,6 +33,7 @@ public class SettingsView extends javax.swing.JFrame {
         jbViewShareAllocation = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosed(java.awt.event.WindowEvent evt) {
                 formWindowClosed(evt);
@@ -87,11 +88,11 @@ public class SettingsView extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(65, 65, 65)
                 .addComponent(jbAddFileExclusions)
-                .addGap(47, 47, 47)
+                .addGap(34, 34, 34)
                 .addComponent(jbAccountManagement)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
+                .addGap(32, 32, 32)
                 .addComponent(jbViewShareAllocation)
-                .addGap(67, 67, 67))
+                .addContainerGap(54, Short.MAX_VALUE))
         );
 
         pack();
